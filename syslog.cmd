@@ -1,5 +1,5 @@
 @echo off
-title SPYRUS 6.9+2
+title SPYRUS v6.9+2
 color 0a
 
 for /l %%i in (1,1,10) do (
@@ -9,3 +9,4 @@ for /l %%i in (1,1,10) do (
 timeout /t 2 > nul
 
 exit
+
