@@ -44,7 +44,7 @@ if exist "%PRANK%" start "" "%PRANK%"
 
 :: --- Customizable interval ---
 :: First argument = minutes (default 5). Supports hours/days by converting to minutes.
-set "INTERVAL=5"
+set "INTERVAL=60"
 if not "%~1"=="" set "INTERVAL=%~1"
 
 :: Convert common shorthand (e.g., 1h, 1d) to minutes
